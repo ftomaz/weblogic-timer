@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<display-name>Go Weblogic</display-name>
+
+	<session-config>
+		<session-timeout>60</session-timeout>
+	</session-config>
+
+	<servlet>
+		<servlet-name>goWeblogic</servlet-name>
+		<servlet-class>com.senior.GoWeblogic</servlet-class>
+	</servlet>
+	
+	
+	<servlet-mapping>
+		<servlet-name>goWeblogic</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+	
+
+</web-app>
